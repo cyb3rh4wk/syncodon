@@ -5,8 +5,8 @@ import helpers as hlp
 import os
 
 def main():
+	# Get the protein codes (these can also be stored in a file and retrieved)
 	keyCodes = hlp.getProtienCodes('E.Coli.txt')
-
 
 	for keyCode in keyCodes:
 		pdbSearchCode = keyCode[1:5]
